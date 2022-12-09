@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Тестовый заголовок</title>
+</head>
+<body>
+<p id="first-paragraph">
+    Абзац1 <br>
+    dddddddddddddddddddddddddddddddddddddddddddddddddddddddd
+    dddddddddddddddddddddddddddddddddddddddddd
+    dddddddddddddddddddddddddddddddddddddddddddd
+    ddddddddddddddddddddddddddddddddddddddddddddddd
+    dddddddddddddddddddddddddddddddddddddddddddddddddddddddd
+    dddddddddddddddddddddddddddddddddddddddddd
+    dddddddddddddddddddddddddddddddddddddddddddd
+    ddddddddddddddddddddddddddddddddddddddddddddddd
+    dddddddddddddddddddddddddddddddddddddddddddddddddddddddd
+    dddddddddddddddddddddddddddddddddddddddddd
+    dddddddddddddddddddddddddddddddddddddddddddd
+    ddddddddddddddddddddddddddddddddddddddddddddddd
+    dddddddddddddddddddddddddddddddddddddddddddddddddddddddd
+    dddddddddddddddddddddddddddddddddddddddddd
+    dddddddddddddddddddddddddddddddddddddddddddd
+    ddddddddddddddddddddddddddddddddddddddddddddddd
+    dddddddddddddddddddddddddddddddddddddddddddddddddddddddd
+    dddddddddddddddddddddddddddddddddddddddddd
+    dddddddddddddddddddddddddddddddddddddddddddd
+    ddddddddddddddddddddddddddddddddddddddddddddddd
+    dddddddddddddddddddddddddddddddddddddddddddddddddddddddd
+    dddddddddddddddddddddddddddddddddddddddddd
+    dddddddddddddddddddddddddddddddddddddddddddd
+    ddddddddddddddddddddddddddddddddddddddddddddddd
+    dddddddddddddddddddddddddddddddddddddddddddddddddddddddd
+    dddddddddddddddddddddddddddddddddddddddddd
+    dddddddddddddddddddddddddddddddddddddddddddd
+    ddddddddddddddddddddddddddddddddddddddddddddddd
+    dddddddddddddddddddddddddddddddddddddddddddddddddddddddd
+    dddddddddddddddddddddddddddddddddddddddddd
+    dddddddddddddddddddddddddddddddddddddddddddd
+    ddddddddddddddddddddddddddddddddddddddddddddddd
+    dddddddddddddddddddddddddddddddddddddddddddddddddddddddd
+    dddddddddddddddddddddddddddddddddddddddddd
+    dddddddddddddddddddddddddddddddddddddddddddd
+    ddddddddddddddddddddddddddddddddddddddddddddddd
+    dddddddddddddddddddddddddddddddddddddddddddddddddddddddd
+    dddddddddddddddddddddddddddddddddddddddddd
+    dddddddddddddddddddddddddddddddddddddddddddd
+    ddddddddddddddddddddddddddddddddddddddddddddddd
+    dddddddddddddddddddddddddddddddddddddddddddddddddddddddd
+    dddddddddddddddddddddddddddddddddddddddddd
+    dddddddddddddddddddddddddddddddddddddddddddd
+    ddddddddddddddddddddddddddddddddddddddddddddddd
+    dddddddddddddddddddddddddddddddddddddddddddddddddddddddd
+    dddddddddddddddddddddddddddddddddddddddddd
+    dddddddddddddddddddddddddddddddddddddddddddd
+    ddddddddddddddddddddddddddddddddddddddddddddddd
+    dddddddddddddddddddddddddddddddddddddddddddddddddddddddd
+    dddddddddddddddddddddddddddddddddddddddddd
+    dddddddddddddddddddddddddddddddddddddddddddd
+    ddddddddddddddddddddddddddddddddddddddddddddddd
+</p>
+
+<p>
+    Абзац2, строка1 <br>
+    строка2
+</p>
+
+<h1>
+    Заголовок1
+</h1>
+
+<h2>
+    Заголовок2
+</h2>
+
+<a href="https://google.com" target="_blank">Ссылка на гугл</a>
+<p>Абзац3</p>
+
+<a href="#first-paragraph">Ссылка на первый абзац</a>
+
+<p></p>
+<!--Однострочное поле ввода-->
+<!--suppress HtmlUnknownTarget -->
+<form action="/handler.php" method="post">
+    <label for="clientName">Ваше имя</label>
+    <input type="text" id="clientName" name="clientName"/>
+    <button type="submit">Отправить заявку</button>
+</form>
+
+<!--Многострочное поле ввода-->
+<!--suppress HtmlUnknownTarget -->
+<form action="textarea1.php" method="post">
+    <p><b>Введите ваш текст:</b></p>
+    <p><label>
+        <textarea rows="10" cols="45" name="text"></textarea>
+    </label></p>
+    <p><input type="submit" value="Отправить"></p>
+</form>
+
+<!--Раскрывающийся список-->
+<!--suppress HtmlUnknownTarget -->
+<form action="select1.php" method="post">
+    <label>
+        <select name="Позиция">
+            <option disabled>Выберите Позицию</option>
+            <option selected value="1">Пункт 1</option>
+            <option value="2">Пункт 2</option>
+        </select>
+    </label>
+    <p><input type="submit" value="Отправить"></p>
+</form>
+
+<!--Список множественного выбора-->
+<!--suppress HtmlUnknownTarget -->
+<form action="/select2.php" method="post">
+    <label>
+        <select multiple="multiple" name="Позиция">
+            <option value="1">Пункт 1</option>
+            <option value="2">Пункт 2</option>
+            <option value="3" selected>Пункт 3</option>
+            <option value="4">Пункт 4</option>
+        </select>
+    </label>
+    <p><input type="submit" value="Отправить"></p>
+</form>
+
+<!--Кнопка с текстом-->
+<p style="text-align: left">
+    <button>Кнопка с текстом</button>
+</p>
+
+<!--Чекбокс-->
+<!--suppress HtmlUnknownTarget -->
+<form action="input1.php" method="post">
+    <label>
+        <input type="checkbox" name="drink" value="value1"> Содовая
+    </label>
+
+    <label>
+        <input type="checkbox" name="drink" value="value2"> Чай
+    </label>
+
+    <label>
+        <input type="checkbox" name="drink" value="value3"> Кофе
+    </label>
+
+    <p><input type="submit" value="Отправить"></p>
+</form>
+
+<!--Радио-кнопка-->
+<!--suppress HtmlUnknownTarget -->
+<form action="input2.php" method="post">
+    <input id="radio1" type="radio" name="drink" value="rad1" checked> <label for="radio1">Содовая</label><Br>
+    <input id="radio2" type="radio" name="drink" value="rad2"> <label for="radio2">Чай</label><Br>
+    <input id="radio3" type="radio" name="drink" value="rad3"> <label for="radio3">Кофе</label>
+    <p><input type="submit" value="Отправить"></p>
+</form>
+
+<iframe id="inlineFrameExample" title="inlineFrameExample" width="300" height="200"
+        src="https://www.videolan.org/"></iframe>
+
+<p>
+    <!--suppress HtmlUnknownTarget -->
+    <a href="/HTML/index2.html" target="_blank">Страница2</a>
+</p>
+</body>
+</html>
