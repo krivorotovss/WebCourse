@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a75bef7e-5a76-4b31-ace6-a44a2d8692b4" name="Changes" comment="Create WebCourse project">
+    <list default="true" id="a75bef7e-5a76-4b31-ace6-a44a2d8692b4" name="Changes" comment="Fixed HTML">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML/index1.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/index1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML/index2.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/index2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML/index1.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/page1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML/index2.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/page2.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +61,7 @@
       <workItem from="1670499534471" duration="193000" />
       <workItem from="1670500049391" duration="1244000" />
       <workItem from="1670501599141" duration="9856000" />
-      <workItem from="1670516254890" duration="9437000" />
+      <workItem from="1670516254890" duration="10391000" />
     </task>
     <task id="LOCAL-00001" summary="Create WebCourse project">
       <created>1670499682287</created>
@@ -91,7 +91,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670567025238</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Fixed HTML">
+      <created>1670567728758</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1670567728758</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -99,6 +106,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Create WebCourse project" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create WebCourse project" />
+    <MESSAGE value="Fixed HTML" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed HTML" />
   </component>
 </project>
