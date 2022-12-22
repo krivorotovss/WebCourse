@@ -1,22 +1,23 @@
 .content {
-    max-width: 749px;
+    max-width: 750px;
     box-sizing: border-box;
     margin: 10px 10px 0;
 }
 
-table {
-    width: 750px;
+.my-table table {
+    table-layout: fixed;
+    width: 100%;
     height: 273px;
     border: 1px solid #DDDDDD;
+    border-collapse: collapse;
     background: #fff;
     font-family: "Arial", "Arial", serif;
     font-size: 18px;
     font-weight: lighter;
-    border-collapse: collapse;
     text-align: left;
 }
 
-th, td {
+.my-table th, td {
     border-top: 1px solid #DDDDDD;
     border-right: 1px solid #DDDDDD;
     padding: 10px 15px 10px 10px;
@@ -24,19 +25,19 @@ th, td {
     width: 20%;
 }
 
-.col-width1 {
+.my-table .col-width1 {
     width: 36%;
 }
 
-.col-width2 {
+.my-table .col-width2 {
     width: 23%;
 }
 
-.table-head{
+.my-table .table-head {
     background: #3498DB;
     color: #fff;
 }
 
-tr:nth-child(2n) {
+.my-table tr:nth-child(2n) {
     background: #EEEEEE;
 }

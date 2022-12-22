@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a75bef7e-5a76-4b31-ace6-a44a2d8692b4" name="Changes" comment="Create CSS Text">
-      <change afterPath="$PROJECT_DIR$/CSS Table/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSS Table/style.css" afterDir="false" />
+    <list default="true" id="a75bef7e-5a76-4b31-ace6-a44a2d8692b4" name="Changes" comment="Fixed CSS Table">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSS Table/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/CSS Table/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSS Table/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS Table/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +63,7 @@
       <workItem from="1670499534471" duration="193000" />
       <workItem from="1670500049391" duration="1244000" />
       <workItem from="1670501599141" duration="9856000" />
-      <workItem from="1670516254890" duration="35655000" />
+      <workItem from="1670516254890" duration="38501000" />
     </task>
     <task id="LOCAL-00001" summary="Create WebCourse project">
       <created>1670499682287</created>
@@ -135,7 +135,21 @@
       <option name="project" value="LOCAL" />
       <updated>1671557277038</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Create CSS Table">
+      <created>1671677457594</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1671677457595</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Fixed CSS Table">
+      <created>1671677531709</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1671677531709</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -145,6 +159,8 @@
     <MESSAGE value="Create WebCourse project" />
     <MESSAGE value="Fixed HTML" />
     <MESSAGE value="Create CSS Text" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create CSS Text" />
+    <MESSAGE value="Create CSS Table" />
+    <MESSAGE value="Fixed CSS Table" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed CSS Table" />
   </component>
 </project>
