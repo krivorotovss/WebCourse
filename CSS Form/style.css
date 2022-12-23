@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+}
+
+.content {
+    display: block;
+    font-family: "Arial", "Arial", serif;
+}
+
+.content .title {
+    font-weight: lighter;
+    font-size: 29px;
+    color: #766E68;
+    margin: 0 28px 3px;
+}
+
+.content .form {
+    position: relative;
+    margin: 0 10px 10px;
+    padding: 17px;
+    width: 737px;
+    height: 466px;
+    background: #FEEED6;
+}
+
+.content .submit-button {
+    position: relative;
+    display: table;
+    width: 150px;
+    height: 31px;
+    background: #378DB2;
+    border: none;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 6px 12px;
+    cursor: pointer;
+    margin-top: 8px;
+    margin-left: auto;
+}
+
+.content .group {
+    position: relative;
+    font-size: 14px;
+    font-weight: bold;
+    color: #6A6968;
+    width: 100%;
+    margin-bottom: 18px;
+}
+
+.content input.text-field {
+    width: 100%;
+    height: 33px;
+    border: none;
+    margin-top: 7px;
+    padding: 6px 12px;
+}
+
+.content textarea {
+    display: block;
+    width: 100%;
+    height: 110px;
+    resize: vertical;
+    max-height: 120px;
+    min-height: 60px;
+    border: none;
+    margin-top: 7px;
+    padding: 6px 12px;
+}
+
+.content span {
+    position: relative;
+    font-size: 14px;
+    color: #6A6968;
+    font-weight: lighter;
+}
+
+.content p {
+    margin: 0;
+}

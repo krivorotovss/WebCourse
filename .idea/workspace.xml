@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a75bef7e-5a76-4b31-ace6-a44a2d8692b4" name="Changes" comment="Fixed CSS Table">
+    <list default="true" id="a75bef7e-5a76-4b31-ace6-a44a2d8692b4" name="Changes" comment="Fixed CSS Text">
+      <change afterPath="$PROJECT_DIR$/CSS Form/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CSS Form/normalize.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CSS Form/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CSS Text/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS Text/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -61,7 +65,7 @@
       <workItem from="1670499534471" duration="193000" />
       <workItem from="1670500049391" duration="1244000" />
       <workItem from="1670501599141" duration="9856000" />
-      <workItem from="1670516254890" duration="38634000" />
+      <workItem from="1670516254890" duration="59692000" />
     </task>
     <task id="LOCAL-00001" summary="Create WebCourse project">
       <created>1670499682287</created>
@@ -154,7 +158,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671680361262</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Fixed CSS Text">
+      <created>1671680539732</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1671680539732</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -166,6 +177,7 @@
     <MESSAGE value="Create CSS Text" />
     <MESSAGE value="Create CSS Table" />
     <MESSAGE value="Fixed CSS Table" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed CSS Table" />
+    <MESSAGE value="Fixed CSS Text" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed CSS Text" />
   </component>
 </project>
