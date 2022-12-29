@@ -2,22 +2,24 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <title>CSS Table</title>
+    <title>CSS Таблица</title>
 
     <link rel="stylesheet" href="normalize.css">
-
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <div class="content">
-    <div class="my-table">
+    <div class="job-table">
         <table>
+            <thead>
             <tr>
-                <th class="table-head">First Name</th>
-                <th class="table-head">Last Name</th>
-                <th class="col-width1 table-head">Job Title</th>
-                <th class="col-width2 table-head">Twitter</th>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th class="job-title-col-width">Job Title</th>
+                <th class="twitter-col-width">Twitter</th>
             </tr>
+            </thead>
+            <tbody>
             <tr>
                 <td>James</td>
                 <td>Matman</td>
@@ -48,6 +50,7 @@
                 <td>Chief Sandwich Eater</td>
                 <td>@szabi</td>
             </tr>
+            </tbody>
         </table>
     </div>
 </div>

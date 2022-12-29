@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+}
+
+.content {
+    max-width: 854px;
+    margin: auto;
+}
+
+.job-table table {
+    table-layout: fixed;
+    width: 100%;
+    height: 273px;
+    border: 1px solid #DDD;
+    border-collapse: collapse;
+    background: #FFF;
+    font-family: Arial, sans-serif;
+    font-size: 22px;
+    font-weight: lighter;
+    text-align: left;
+}
+
+.job-table th,
+.job-table td {
+    border-top: 1px solid #DDD;
+    border-right: 1px solid #DDD;
+    padding: 13px 10px 12px 10px;
+    text-align: left;
+    width: 20%;
+}
+
+.job-table .job-title-col-width {
+    width: 36%;
+}
+
+.job-table .twitter-col-width {
+    width: 23%;
+}
+
+.job-table thead {
+    background: #3498DB;
+    color: #FFF;
+}
+
+.job-table tbody tr:nth-child(odd) {
+    background: #EEE;
+}
