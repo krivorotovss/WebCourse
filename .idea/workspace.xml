@@ -9,8 +9,8 @@
       <change beforePath="$PROJECT_DIR$/CSS Form/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/CSS-Form/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CSS Form/normalize.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS-Form/normalize.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CSS Form/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS-Form/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSS-Text/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/CSS-Text/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSS-Text/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS-Text/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSS-Table/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/CSS-Table/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSS-Table/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS-Table/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +66,7 @@
       <workItem from="1670499534471" duration="193000" />
       <workItem from="1670500049391" duration="1244000" />
       <workItem from="1670501599141" duration="9856000" />
-      <workItem from="1670516254890" duration="72115000" />
+      <workItem from="1670516254890" duration="72709000" />
     </task>
     <task id="LOCAL-00001" summary="Create WebCourse project">
       <created>1670499682287</created>
@@ -194,7 +194,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672318162594</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Fixed CSS Text">
+      <created>1673271802146</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1673271802146</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
