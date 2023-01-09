@@ -3,54 +3,63 @@
 }
 
 .content {
+    margin: auto;
     display: block;
-    font-family: "Arial", "Arial", serif;
+    font-family: Arial, serif;
+}
+
+.block {
+    margin: auto;
+    max-width: 840px;
 }
 
 .content .title {
     font-weight: lighter;
-    font-size: 29px;
+    font-size: 33px;
     color: #766E68;
     margin: 0 28px 3px;
 }
 
 .content .form {
     position: relative;
-    margin: 0 10px 10px;
-    padding: 17px;
-    width: 737px;
-    height: 466px;
+    padding: 21px 21px 15px;
     background: #FEEED6;
 }
 
 .content .submit-button {
     position: relative;
-    display: table;
-    width: 150px;
-    height: 31px;
+    display: block;
     background: #378DB2;
     border: none;
-    color: white;
-    font-size: 14px;
+    color: #FFFFFF;
+    font-size: 16px;
     font-weight: bold;
-    padding: 6px 12px;
+    padding: 9px 13px;
     cursor: pointer;
-    margin-top: 8px;
+    margin-top: 15px;
     margin-left: auto;
+}
+
+.content .submit-button:hover {
+    background: #37A599;
 }
 
 .content .group {
     position: relative;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: bold;
     color: #6A6968;
     width: 100%;
     margin-bottom: 18px;
 }
 
+.content .comment {
+    padding-top: 2px;
+}
+
 .content input.text-field {
     width: 100%;
-    height: 33px;
+    height: 40px;
     border: none;
     margin-top: 7px;
     padding: 6px 12px;
@@ -59,22 +68,18 @@
 .content textarea {
     display: block;
     width: 100%;
-    height: 110px;
+    height: 130px;
     resize: vertical;
-    max-height: 120px;
+    max-height: 130px;
     min-height: 60px;
     border: none;
     margin-top: 7px;
-    padding: 6px 12px;
+    padding: 12px 12px;
 }
 
 .content span {
     position: relative;
-    font-size: 14px;
+    font-size: 16px;
     color: #6A6968;
     font-weight: lighter;
-}
-
-.content p {
-    margin: 0;
 }
