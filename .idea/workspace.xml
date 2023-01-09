@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a75bef7e-5a76-4b31-ace6-a44a2d8692b4" name="Changes" comment="Fixed CSS Table">
+    <list default="true" id="a75bef7e-5a76-4b31-ace6-a44a2d8692b4" name="Changes" comment="Fixed CSS Form">
+      <change afterPath="$PROJECT_DIR$/JS-Arrays/arrays.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS-Arrays/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSS Form/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/CSS-Form/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSS Form/normalize.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS-Form/normalize.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSS Form/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS-Form/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,8 +17,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -46,7 +46,7 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -64,7 +64,8 @@
       <workItem from="1670499534471" duration="193000" />
       <workItem from="1670500049391" duration="1244000" />
       <workItem from="1670501599141" duration="9856000" />
-      <workItem from="1670516254890" duration="78727000" />
+      <workItem from="1670516254890" duration="79638000" />
+      <workItem from="1673281646454" duration="674000" />
     </task>
     <task id="LOCAL-00001" summary="Create WebCourse project">
       <created>1670499682287</created>
@@ -206,7 +207,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673272405619</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Fixed CSS Form">
+      <created>1673280085594</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1673280085594</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -220,6 +228,7 @@
     <MESSAGE value="Create CSS Form" />
     <MESSAGE value="Fixed CSS Text" />
     <MESSAGE value="Fixed CSS Table" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed CSS Table" />
+    <MESSAGE value="Fixed CSS Form" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed CSS Form" />
   </component>
 </project>
