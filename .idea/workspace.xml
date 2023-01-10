@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a75bef7e-5a76-4b31-ace6-a44a2d8692b4" name="Changes" comment="Create JS Arrays">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS-Objects/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS-Objects/objects.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JS-Arrays/arrays.js" beforeDir="false" afterPath="$PROJECT_DIR$/JS-Arrays/arrays.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JS-Arrays/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/JS-Arrays/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -67,7 +67,7 @@
       <workItem from="1670501599141" duration="9856000" />
       <workItem from="1670516254890" duration="79638000" />
       <workItem from="1673281646454" duration="747000" />
-      <workItem from="1673282423453" duration="5226000" />
+      <workItem from="1673282423453" duration="6219000" />
     </task>
     <task id="LOCAL-00001" summary="Create WebCourse project">
       <created>1670499682287</created>
@@ -223,7 +223,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673282368825</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Create JS Arrays">
+      <created>1673345078030</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1673345078030</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
