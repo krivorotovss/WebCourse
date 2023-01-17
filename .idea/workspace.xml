@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a75bef7e-5a76-4b31-ace6-a44a2d8692b4" name="Changes" comment="Create JS Arrays">
+    <list default="true" id="a75bef7e-5a76-4b31-ace6-a44a2d8692b4" name="Changes" comment="Fixed JS Arrays">
       <change afterPath="$PROJECT_DIR$/JS-Objects/index.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/JS-Objects/objects.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JS-Arrays/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/JS-Arrays/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSS-Form/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/CSS-Form/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSS-Form/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS-Form/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +68,7 @@
       <workItem from="1670501599141" duration="9856000" />
       <workItem from="1670516254890" duration="79638000" />
       <workItem from="1673281646454" duration="747000" />
-      <workItem from="1673282423453" duration="6219000" />
+      <workItem from="1673282423453" duration="11871000" />
     </task>
     <task id="LOCAL-00001" summary="Create WebCourse project">
       <created>1670499682287</created>
@@ -230,7 +231,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673345078030</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Fixed JS Arrays">
+      <created>1673345631471</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1673345631471</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -246,6 +254,7 @@
     <MESSAGE value="Fixed CSS Table" />
     <MESSAGE value="Fixed CSS Form" />
     <MESSAGE value="Create JS Arrays" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create JS Arrays" />
+    <MESSAGE value="Fixed JS Arrays" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed JS Arrays" />
   </component>
 </project>
