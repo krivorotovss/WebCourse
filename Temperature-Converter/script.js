@@ -6,10 +6,10 @@ document.addEventListener("DOMContentLoaded", function () {
     var convertButton = document.getElementById("convert-button");
 
     convertButton.addEventListener("click", function (e) {
-        var celsiusText = celsiusTextBox.value.trim();
+        var celsiusTextItem = celsiusTextBox.value.trim();
 
-        fahrenheitTextBox.value = (9 * Number(celsiusText) / 5 + 32).toFixed(2);
-        kelvinTextBox.value = (273.15 + Number(celsiusText)).toFixed(2);
+        fahrenheitTextBox.value = (9 * Number(celsiusTextItem) / 5 + 32).toFixed(2);
+        kelvinTextBox.value = (273.15 + Number(celsiusTextItem)).toFixed(2);
     });
 
 });
