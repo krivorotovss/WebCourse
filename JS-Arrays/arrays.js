@@ -51,5 +51,5 @@
             .map(function (element) {
                 return element * element;
             });
-    };
+    }
 })();
