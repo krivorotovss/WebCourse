@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a75bef7e-5a76-4b31-ace6-a44a2d8692b4" name="Changes" comment="Fixed JS Arrays">
-      <change afterPath="$PROJECT_DIR$/JS-Objects/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS-Objects/objects.js" afterDir="false" />
+    <list default="true" id="a75bef7e-5a76-4b31-ace6-a44a2d8692b4" name="Changes" comment="Fixed JS Objects">
+      <change afterPath="$PROJECT_DIR$/Temperature-Converter/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temperature-Converter/normalize.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temperature-Converter/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temperature-Converter/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JS-Arrays/arrays.js" beforeDir="false" afterPath="$PROJECT_DIR$/JS-Arrays/arrays.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,9 +19,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -67,7 +68,7 @@
       <workItem from="1670501599141" duration="9856000" />
       <workItem from="1670516254890" duration="79638000" />
       <workItem from="1673281646454" duration="747000" />
-      <workItem from="1673282423453" duration="21001000" />
+      <workItem from="1673282423453" duration="28326000" />
     </task>
     <task id="LOCAL-00001" summary="Create WebCourse project">
       <created>1670499682287</created>
@@ -251,7 +252,28 @@
       <option name="project" value="LOCAL" />
       <updated>1673967528068</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Create JS Objects">
+      <created>1674016244693</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1674016244693</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Fixed JS Arrays">
+      <created>1674016305340</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1674016305340</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Fixed JS Objects">
+      <created>1674016334655</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1674016334655</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -267,7 +289,9 @@
     <MESSAGE value="Fixed CSS Table" />
     <MESSAGE value="Create JS Arrays" />
     <MESSAGE value="Fixed CSS Form" />
+    <MESSAGE value="Create JS Objects" />
     <MESSAGE value="Fixed JS Arrays" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed JS Arrays" />
+    <MESSAGE value="Fixed JS Objects" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed JS Objects" />
   </component>
 </project>
