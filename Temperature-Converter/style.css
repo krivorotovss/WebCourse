@@ -7,7 +7,8 @@
     display: block;
     font-family: Arial, sans-serif;
     max-width: 500px;
-    background: antiquewhite;
+    min-width: 300px;
+    background: #FAEBD7FF;
     padding: 20px;
 }
 
@@ -49,4 +50,10 @@
 
 .content .convert-button:hover {
     background: #37A599;
+}
+
+.error-message {
+    color: #F00;
+    border-color: #F00;
+    border-width: 3px;
 }
