@@ -8,7 +8,6 @@
                 {name: "Москва", population: 11980000}
             ]
         },
-
         {
             name: "США",
             cities: [
@@ -16,7 +15,6 @@
                 {name: "Нью-Йорк", population: 8467513}
             ]
         },
-
         {
             name: "Япония",
             cities: [
@@ -27,24 +25,19 @@
     ];
 
     function getCountriesWithMaxCitiesCount(countries) {
-        var maxCitiesCount = Math.max.apply(null, countries
-            .map(function (country) {
-                return country.cities.length;
-            }));
+        var maxCitiesCount = Math.max.apply(null, countries.map(function (country) {
+            return country.cities.length;
+        }));
 
-        var countryNames = {};
-
-        countryNames = countries.filter(function (country) {
-            return country.cities.length === maxCitiesCount
+        return countries.filter(function (country) {
+            return country.cities.length === maxCitiesCount;
         });
-
-        return countryNames;
     }
 
     console.log("Страна(ы) с максимальным количеством городов:");
     console.log(getCountriesWithMaxCitiesCount(countries));
 
-    function getCountriesAndPopulation(countries) {
+    function getCountriesPopulation(countries) {
         var citiesPopulationSum = {};
 
         countries.forEach(function (country) {
@@ -58,5 +51,5 @@
     }
 
     console.log("Информация о населении по странам:");
-    console.log(getCountriesAndPopulation(countries));
+    console.log(getCountriesPopulation(countries));
 })();
