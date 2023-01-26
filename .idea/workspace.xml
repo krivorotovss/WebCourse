@@ -4,12 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a75bef7e-5a76-4b31-ace6-a44a2d8692b4" name="Changes" comment="Fixed Temperature Converter">
-      <change afterPath="$PROJECT_DIR$/Todo-List/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Todo-List/normalize.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Todo-List/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Todo-List/style.css" afterDir="false" />
+    <list default="true" id="a75bef7e-5a76-4b31-ace6-a44a2d8692b4" name="Changes" comment="Create TODO List">
+      <change afterPath="$PROJECT_DIR$/JQ-Todo-List/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JQ-Todo-List/jquery-3.6.2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JQ-Todo-List/normalize.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JQ-Todo-List/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JQ-Todo-List/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Todo-List/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/Todo-List/script.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,8 +22,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -69,7 +71,7 @@
       <workItem from="1670501599141" duration="9856000" />
       <workItem from="1670516254890" duration="79638000" />
       <workItem from="1673281646454" duration="747000" />
-      <workItem from="1673282423453" duration="54664000" />
+      <workItem from="1673282423453" duration="57949000" />
     </task>
     <task id="LOCAL-00001" summary="Create WebCourse project">
       <created>1670499682287</created>
@@ -302,7 +304,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674665454205</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="Create TODO List">
+      <created>1674742020959</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1674742020959</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -323,6 +332,7 @@
     <MESSAGE value="Create Temperature Converter" />
     <MESSAGE value="Fixed JS Objects" />
     <MESSAGE value="Fixed Temperature Converter" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed Temperature Converter" />
+    <MESSAGE value="Create TODO List" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create TODO List" />
   </component>
 </project>
