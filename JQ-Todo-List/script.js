@@ -21,7 +21,7 @@ $(function () {
             todoItem.html("<input class='edit-todo-item' type='text'>\
                 <button class='save-button' type='button'>Save</button>\
                 <button class='cancel-button' type='button'>Cancel</button>\
-                <div style = 'display: none' class='edit-error-message'>Field is required</div>");
+                <div style='display: none' class='edit-error-message'>Field is required</div>");
 
             todoItem.find(".edit-todo-item").val(newTodoText);
 
@@ -31,12 +31,13 @@ $(function () {
 
             todoItem.find(".save-button").click(function () {
                 var editedTodoText = todoItem.find(".edit-todo-item").val().trim();
-                var editErrorMessage = todoItem.find('.edit-error-message');
+                var editErrorMessage = todoItem.find(".edit-error-message");
 
                 if (editedTodoText.length === 0) {
                     todoItem.find(".edit-todo-item").addClass("invalid");
+                    todoItem.find(".edit-todo-item").addClass("edit-error-message");
                     editErrorMessage.show();
-                    editErrorMessage.css("color", "#f00");
+                    todoItem.find(".edit-todo-item").removeClass("edit-error-message");
                     return;
                 }
 
@@ -68,5 +69,5 @@ $(function () {
         todoList.append(todoItem);
 
         newTodoTextInput.val("");
-    })
+    });
 });

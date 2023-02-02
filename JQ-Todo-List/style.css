@@ -26,6 +26,10 @@
     display: none;
 }
 
+.content .edit-error-message {
+    color: #f00;
+}
+
 .content .invalid {
     border-color: #f00;
 }
