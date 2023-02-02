@@ -34,6 +34,10 @@
     display: block;
 }
 
+.content .edit-error-message {
+    color: #f00;
+}
+
 .content .todo-item-text {
     padding-right: 5px;
     word-wrap: break-word;

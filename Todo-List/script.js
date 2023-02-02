@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", function () {
             todoItem.innerHTML = "<input class='edit-todo-item' type='text'>\
                 <button class='save-button' type='button'>Save</button>\
                 <button class='cancel-button' type='button'>Cancel</button>\
-                <div style = 'display: none' class='edit-error-message'>Field is required</div>";
+                <div style='display: none' class='edit-error-message'>Field is required</div>";
 
             todoItem.querySelector(".edit-todo-item").value = newTodoText;
 
@@ -31,12 +31,14 @@ document.addEventListener("DOMContentLoaded", function () {
 
             todoItem.querySelector(".save-button").addEventListener("click", function () {
                 var editedTodoText = todoItem.querySelector(".edit-todo-item").value.trim();
-                var editErrorMessage = todoItem.querySelector('.edit-error-message');
+                var editErrorMessage = todoItem.querySelector(".edit-error-message");
+
 
                 if (editedTodoText.length === 0) {
                     todoItem.querySelector(".edit-todo-item").classList.add("invalid");
-                    editErrorMessage.style.display = 'block';
-                    editErrorMessage.style.color = "#f00";
+                    todoItem.querySelector(".edit-todo-item").classList.add("edit-error-message");
+                    editErrorMessage.style.display = "block";
+                    todoItem.querySelector(".edit-todo-item").classList.remove("edit-error-message");
                     return;
                 }
 
@@ -68,5 +70,5 @@ document.addEventListener("DOMContentLoaded", function () {
 
         todoList.appendChild(todoItem);
         todoList.appendChild(todoItem);
-    })
+    });
 });
