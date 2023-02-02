@@ -2,17 +2,16 @@ document.addEventListener("DOMContentLoaded", function () {
     var celsiusTextBox = document.getElementById("client-data-celsius");
     var fahrenheitTextBox = document.getElementById("fahrenheit");
     var kelvinTextBox = document.getElementById("kelvin");
-
     var convertButton = document.getElementById("convert-button");
 
     convertButton.addEventListener("click", function () {
         var celsiusText = celsiusTextBox.value.trim();
+        celsiusTextBox.classList.remove("invalid");
 
         var celsiusTemperature = Number(celsiusText);
 
         if (celsiusText.length == 0 || isNaN(celsiusTemperature)) {
-            celsiusTextBox.classList.add("error-message");
-            celsiusTextBox.value = "Введите число";
+            celsiusTextBox.classList.add("invalid");
             return;
         }
 

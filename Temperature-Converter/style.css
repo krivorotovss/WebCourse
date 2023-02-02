@@ -30,7 +30,6 @@
 .content input.text-field {
     width: 100%;
     height: 40px;
-    /*border: none;*/
     margin-top: 7px;
     padding: 6px 12px;
 }
@@ -52,8 +51,15 @@
     background: #37A599;
 }
 
-.error-message {
+.content .error-message {
     color: #F00;
-    border-color: #F00;
-    border-width: 3px;
+    display: none;
+}
+
+.content .invalid {
+    border-color: #f00;
+}
+
+.content .invalid ~ .error-message {
+    display: block;
 }
