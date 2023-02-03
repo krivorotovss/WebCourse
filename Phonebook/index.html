@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Phonebook</title>
+
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="jquery-3.6.2.js"></script>
+    <script defer src="script.js"></script>
+</head>
+<body>
+<div class="content">
+    <div class="block">
+        <div id="form" class="form">
+
+            <div class="new-contacts">
+                <h2 class="title">Add contact</h2>
+                <table class="input-table">
+                    <thead>
+                    <tr>
+                        <th class="number-col-width"></th>
+                        <th class="lastname-col-width">Last Name</th>
+                        <th class="firstname-col-width">First Name</th>
+                        <th class="phone-col-width">Phone</th>
+                        <th class="button-col-width"></th>
+                    </tr>
+                    <tbody>
+                    <tr>
+                        <td></td>
+                        <td>
+                            <div class="new-lastname-text">
+                                <label><input id="new-lastname-text" type="text" placeholder="Input lastname"></label>
+                                <div class="lastname-error-message">Input lastname</div>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="new-firstname-text">
+                                <label><input id="new-firstname-text" type="text" placeholder="Input firstname"></label>
+                                <div class="firstname-error-message">Input firstname</div>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="new-phone-text">
+                                <label><input id="new-phone-text" type="text" placeholder="Input phone"></label>
+                                <div class="phone-error-message">Input phone</div>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="add-button">
+                                <button id="add-button" type="submit" title="add contact">Add</button>
+                            </div>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="phonebook">
+                <h1 class="title">Phonebook</h1>
+                <table class="phone-table">
+                    <thead>
+                    <tr>
+                        <th class="number-col-width">&#8470;</th>
+                        <th class="lastname-col-width">Last Name</th>
+                        <th class="firstname-col-width">First Name</th>
+                        <th class="phone-col-width">Phone</th>
+                        <th class="button-col-width"></th>
+                    </tr>
+                    </thead>
+                    <tbody class="contacts-rows"></tbody>
+                </table>
+            </div>
+
+        </div>
+    </div>
+</div>
+</body>
+</html>

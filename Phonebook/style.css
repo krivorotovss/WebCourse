@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+}
+
+.content {
+    margin: auto;
+    display: block;
+    font-family: Arial, sans-serif;
+}
+
+.block {
+    margin: auto;
+    max-width: 840px;
+    padding: 20px;
+    background: #FEEED6;
+}
+
+.content .title {
+    font-weight: lighter;
+    font-size: 33px;
+    color: #766E68;
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+}
+
+.content .form {
+    background: #FEEED6;
+}
+
+.phone-table,
+.input-table {
+    table-layout: fixed;
+    width: 100%;
+    border: 1px solid #DDD;
+    border-collapse: collapse;
+    background: #FFF;
+    font-family: Arial, sans-serif;
+    font-size: 22px;
+    font-weight: lighter;
+    text-align: left;
+}
+
+.phone-table th,
+.phone-table td,
+.input-table th,
+.input-table td {
+    border-top: 1px solid #DDD;
+    border-right: 1px solid #DDD;
+    padding: 10px;
+    text-align: center;
+}
+
+.phone-table .firstname-col-width,
+.lastname-col-width {
+    width: 25%;
+}
+
+.input-table .firstname-col-width,
+.lastname-col-width {
+    width: 25%;
+}
+
+.phone-table .number-col-width,
+.button-col-width {
+    width: 10%;
+}
+
+.input-table .number-col-width,
+.button-col-width {
+    width: 10%;
+}
+
+.phone-table .firstname-text input,
+.lastname-text input,
+.phone-text input {
+    width: 100%;
+}
+
+.input-table .new-firstname-text input,
+.new-lastname-text input,
+.new-phone-text input {
+    width: 100%;
+}
+
+.content .lastname-error-message {
+    font-size: 14px;
+    color: #f00;
+    display: none;
+}
+
+.content .firstname-error-message {
+    font-size: 14px;
+    color: #f00;
+    display: none;
+}
+
+.content .phone-error-message {
+    font-size: 14px;
+    color: #f00;
+    display: none;
+}
+
+.content .invalid {
+    border-color: #f00;
+}
