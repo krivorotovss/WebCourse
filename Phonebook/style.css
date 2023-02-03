@@ -83,19 +83,9 @@
     width: 100%;
 }
 
-.content .lastname-error-message {
-    font-size: 14px;
-    color: #f00;
-    display: none;
-}
-
-.content .firstname-error-message {
-    font-size: 14px;
-    color: #f00;
-    display: none;
-}
-
-.content .phone-error-message {
+.content .lastname-error-message,
+.firstname-error-message,
+.phone-error-message {
     font-size: 14px;
     color: #f00;
     display: none;
