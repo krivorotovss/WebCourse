@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a75bef7e-5a76-4b31-ace6-a44a2d8692b4" name="Changes" comment="Fixed Phonebook">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temperature-Converter/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/Temperature-Converter/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temperature-Converter/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Temperature-Converter/style.css" afterDir="false" />
+    <list default="true" id="a75bef7e-5a76-4b31-ace6-a44a2d8692b4" name="Changes" comment="Fixed Temperature Converter">
+      <change beforePath="$PROJECT_DIR$/Phonebook/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Phonebook/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +65,7 @@
       <workItem from="1670501599141" duration="9856000" />
       <workItem from="1670516254890" duration="79638000" />
       <workItem from="1673281646454" duration="747000" />
-      <workItem from="1673282423453" duration="86960000" />
+      <workItem from="1673282423453" duration="87208000" />
     </task>
     <task id="LOCAL-00001" summary="Create WebCourse project">
       <created>1670499682287</created>
@@ -349,7 +347,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675436767599</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="Fixed Temperature Converter">
+      <created>1675606317712</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1675606317712</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -373,9 +378,9 @@
     <MESSAGE value="Create JQ TODO List" />
     <MESSAGE value="Fixed JQ TODO List" />
     <MESSAGE value="Fixed TODO List" />
-    <MESSAGE value="Fixed Temperature Converter" />
     <MESSAGE value="Create Phonebook" />
     <MESSAGE value="Fixed Phonebook" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed Phonebook" />
+    <MESSAGE value="Fixed Temperature Converter" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed Temperature Converter" />
   </component>
 </project>
