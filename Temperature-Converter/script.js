@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
         var celsiusTemperature = Number(celsiusText);
 
-        if (celsiusText.length == 0 || isNaN(celsiusTemperature)) {
+        if (celsiusText.length === 0 || isNaN(celsiusTemperature)) {
             celsiusTextBox.classList.add("invalid");
             return;
         }

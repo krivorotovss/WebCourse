@@ -52,6 +52,7 @@
 }
 
 .content .error-message {
+    margin-top: 5px;
     color: #F00;
     display: none;
 }
