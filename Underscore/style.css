@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+}
+
+.content {
+    display: block;
+    font-family: Arial, sans-serif;
+}
+
+.block {
+    margin: auto;
+    max-width: 1024px;
+    min-width: 800px;
+    padding: 20px;
+    background: #FEEED6;
+}
+
+.content .title {
+    font-weight: lighter;
+    font-size: 33px;
+    color: #766E68;
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+}
+
+.content .get-decisions {
+    display: block;
+    background: #378DB2;
+    border: none;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 9px 13px;
+    cursor: pointer;
+    margin-top: 15px;
+    margin-left: auto;
+}
+
+.content .get-decisions:hover {
+    background: #37A599;
+}
