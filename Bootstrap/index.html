@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap</title>
+
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="node_modules/jquery/dist/jquery.js"></script>
+    <script defer src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <script defer src="script.js"></script>
+</head>
+<body>
+<div class="content">
+    <h1 class="title">JQ TODO List (Bootstrap)</h1>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <span>Enter text:</span>
+            </div>
+
+            <div class="col-md-7">
+                <label for="new-todo-text"></label><input id="new-todo-text" type="text">
+                <div class="error-message">Field is required</div>
+            </div>
+
+            <div class="col-md-2">
+                <button id="add-button" type="submit">Add</button>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <ul id="todo-list"></ul>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
