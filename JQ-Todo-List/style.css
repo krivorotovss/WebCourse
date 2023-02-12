@@ -4,10 +4,11 @@
 
 .content {
     margin: auto;
+    width: 100%;
     font-family: Arial, sans-serif;
     padding: 20px;
     background: #FEEED6;
-    max-width: 450px;
+    max-width: 1200px;
     min-width: 400px;
 }
 
@@ -16,22 +17,27 @@
     text-align: center;
 }
 
-.content .form > * {
-    display: inline-block;
-    vertical-align: top;
+.content .form {
+    display: flex;
+    justify-content: center;
+}
+
+.content .form label {
+    height: 25px;
+    line-height: 25px;
 }
 
 .content .error-message {
-    color: #f00;
+    color: #F00;
     display: none;
 }
 
 .content .edit-error-message {
-    color: #f00;
+    color: #F00;
 }
 
 .content .invalid {
-    border-color: #f00;
+    border-color: #F00;
 }
 
 .content .invalid ~ .error-message {
@@ -45,4 +51,22 @@
 
 .content .todo-item + .todo-item {
     margin-top: 5px;
+}
+
+.content .edit-delete-buttons,
+.add-button {
+    display: flex;
+    justify-content: right;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    gap: 5px;
+}
+
+.content .save-cancel-buttons {
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.todo-list-form li {
+    border-bottom: 1px solid #000;
 }
