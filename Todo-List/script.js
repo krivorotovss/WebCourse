@@ -17,28 +17,32 @@ document.addEventListener("DOMContentLoaded", function () {
             return;
         }
 
+        var todoItem = document.createElement("li");
+        todoItem.classList.add("todo-item");
+
         function setEditMode() {
             todoItem.innerHTML = "<input class='edit-todo-item' type='text'>\
+                <div class='save-cancel-buttons'>\
                 <button class='save-button' type='button'>Save</button>\
                 <button class='cancel-button' type='button'>Cancel</button>\
-                <div style='display: none' class='edit-error-message'>Field is required</div>";
+                <div style='display: none' class='edit-error-message'>Field is required</div>\
+                </div";
 
-            todoItem.querySelector(".edit-todo-item").value = newTodoText;
+            var editTodoItem = todoItem.querySelector(".edit-todo-item");
+
+            editTodoItem.value = newTodoText;
 
             todoItem.querySelector(".cancel-button").addEventListener("click", function () {
                 setViewMode();
             });
 
             todoItem.querySelector(".save-button").addEventListener("click", function () {
-                var editedTodoText = todoItem.querySelector(".edit-todo-item").value.trim();
+                var editedTodoText = editTodoItem.value.trim();
                 var editErrorMessage = todoItem.querySelector(".edit-error-message");
 
-
                 if (editedTodoText.length === 0) {
-                    todoItem.querySelector(".edit-todo-item").classList.add("invalid");
-                    todoItem.querySelector(".edit-todo-item").classList.add("edit-error-message");
+                    editTodoItem.classList.add("invalid");
                     editErrorMessage.style.display = "block";
-                    todoItem.querySelector(".edit-todo-item").classList.remove("edit-error-message");
                     return;
                 }
 
@@ -49,8 +53,10 @@ document.addEventListener("DOMContentLoaded", function () {
 
         function setViewMode() {
             todoItem.innerHTML = "<span class='todo-item-text'></span>\
+                <div class='edit-delete-buttons'>\
                 <button class='edit-button' type='button'>Edit</button>\
-                <button class='delete-button' type='button'>Delete</button>";
+                <button class='delete-button' type='button'>Delete</button>\
+                </div>";
 
             todoItem.querySelector(".todo-item-text").textContent = newTodoText;
 
@@ -63,12 +69,10 @@ document.addEventListener("DOMContentLoaded", function () {
             });
         }
 
-        var todoItem = document.createElement("li");
-        todoItem.classList.add("todo-item");
-
         setViewMode();
 
         todoList.appendChild(todoItem);
-        todoList.appendChild(todoItem);
+
+        newTodoTextInput.value = "";
     });
 });
