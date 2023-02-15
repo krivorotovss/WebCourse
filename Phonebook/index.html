@@ -16,44 +16,32 @@
 
             <div class="new-contacts">
                 <h2 class="title">Add contact</h2>
-                <table class="input-table">
-                    <thead>
-                    <tr>
-                        <th class="number-col-width"></th>
-                        <th class="lastname-col-width">Last Name</th>
-                        <th class="firstname-col-width">First Name</th>
-                        <th class="phone-col-width">Phone</th>
-                        <th class="button-col-width"></th>
-                    </tr>
-                    <tbody>
-                    <tr>
-                        <td></td>
-                        <td>
-                            <div class="new-lastname-text">
-                                <label><input id="new-lastname-text" type="text" placeholder="Input lastname"></label>
-                                <div class="lastname-error-message">Input lastname</div>
-                            </div>
-                        </td>
-                        <td>
-                            <div class="new-firstname-text">
-                                <label><input id="new-firstname-text" type="text" placeholder="Input firstname"></label>
-                                <div class="firstname-error-message">Input firstname</div>
-                            </div>
-                        </td>
-                        <td>
-                            <div class="new-phone-text">
-                                <label><input id="new-phone-text" type="text" placeholder="Input phone"></label>
-                                <div class="phone-error-message">Input phone</div>
-                            </div>
-                        </td>
-                        <td>
-                            <div class="add-button">
-                                <button id="add-button" type="submit" title="add contact">Add</button>
-                            </div>
-                        </td>
-                    </tr>
-                    </tbody>
-                </table>
+                <div>
+
+                    <div class="new-lastname-text">
+                        <label class="label" for="new-lastname-text">Input lastname</label> <br>
+                        <input id="new-lastname-text" type="text" placeholder="Input lastname">
+                        <div class="lastname-error-message">Input lastname</div>
+                    </div>
+
+                    <div class="new-firstname-text">
+                        <label class="label" for="new-firstname-text">Input firstname:</label> <br>
+                        <input id="new-firstname-text" type="text" placeholder="Input firstname">
+                        <div class="firstname-error-message">Input firstname</div>
+                    </div>
+
+                    <div class="new-phone-text">
+                        <label class="label" for="new-phone-text">Input phone</label> <br>
+                        <input id="new-phone-text" type="text" placeholder="Input phone">
+                        <div class="phone-error-message1">Input phone</div>
+                        <div class="phone-error-message2">Phone is contained</div>
+                    </div>
+
+                    <div class="add-button">
+                        <button id="add-button" type="submit" title="add contact">Add</button>
+                    </div>
+
+                </div>
             </div>
 
             <div class="phonebook">
@@ -61,17 +49,16 @@
                 <table class="phone-table">
                     <thead>
                     <tr>
-                        <th class="number-col-width">&#8470;</th>
-                        <th class="lastname-col-width">Last Name</th>
-                        <th class="firstname-col-width">First Name</th>
-                        <th class="phone-col-width">Phone</th>
-                        <th class="button-col-width"></th>
+                        <th class="col-number">&#8470;</th>
+                        <th class="col-lastname">Last Name</th>
+                        <th class="col-firstname">First Name</th>
+                        <th class="col-phone">Phone</th>
+                        <th class="col-button"></th>
                     </tr>
                     </thead>
                     <tbody class="contacts-rows"></tbody>
                 </table>
             </div>
-
         </div>
     </div>
 </div>

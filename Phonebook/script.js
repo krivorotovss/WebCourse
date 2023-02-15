@@ -7,10 +7,10 @@ $(function () {
 
     var lastnameErrorMessage = $(".lastname-error-message");
     var firstnameErrorMessage = $(".firstname-error-message");
-    var phoneErrorMessage = $(".phone-error-message");
+    var phoneErrorMessage1 = $(".phone-error-message1");
+    var phoneErrorMessage2 = $(".phone-error-message2");
 
     var contactsRows = $(".contacts-rows");
-    var deletedItem;
 
     var form = $("#form");
 
@@ -21,14 +21,22 @@ $(function () {
     addButton.click(function () {
         var newLastnameText = newLastnameTextInput.val().trim();
         newLastnameTextInput.removeClass("invalid");
+        lastnameErrorMessage.hide()
 
         var newFirstnameText = newFirstnameTextInput.val().trim();
         newFirstnameTextInput.removeClass("invalid");
+        firstnameErrorMessage.hide();
 
         var newPhoneText = newPhoneTextInput.val().trim();
         newPhoneTextInput.removeClass("invalid");
+        phoneErrorMessage1.hide();
+        phoneErrorMessage2.hide();
 
-        if (checkInvalidInputData(newFirstnameText, newLastnameText, newPhoneText)) {
+        if (checkContainedPhone(newPhoneText)) {
+            return;
+        }
+
+        if (!validateInputData(newFirstnameText, newLastnameText, newPhoneText)) {
             return;
         }
 
@@ -42,7 +50,7 @@ $(function () {
 
         element.find(".delete-button").click(function () {
             $(this).closest("tr").remove();
-            setRowNumber();
+            setRowsNumbers();
         });
 
         element.find(".lastname").text(newLastnameText);
@@ -54,43 +62,51 @@ $(function () {
         newFirstnameTextInput.val("");
         newPhoneTextInput.val("");
 
-        setRowNumber();
+        setRowsNumbers();
     });
 
-    function checkInvalidInputData(firstname, lastname, phone) {
-        var isInvalid = false;
+    function validateInputData(firstname, lastname, phone) {
+        var isValid = true;
 
         if (lastname.length === 0) {
             newLastnameTextInput.addClass("invalid");
             lastnameErrorMessage.show();
-            return true;
+            isValid = false;
         }
-
-        lastnameErrorMessage.hide();
 
         if (firstname.length === 0) {
             newFirstnameTextInput.addClass("invalid");
             firstnameErrorMessage.show();
-            return true;
+            isValid = false;
         }
-
-        firstnameErrorMessage.hide();
 
         if (phone.length === 0 || isNaN(phone)) {
             newPhoneTextInput.addClass("invalid");
-            phoneErrorMessage.show();
-            return true;
+            phoneErrorMessage1.show();
+            isValid = false;
         }
 
-        phoneErrorMessage.hide();
+        return isValid;
+    }
 
-        return isInvalid;
-    };
+    function checkContainedPhone(inputPhone) {
+        var isContained = false;
 
-    function setRowNumber() {
+        contactsRows.find(".phone").each(function () {
+            if ($(this).text() === inputPhone) {
+                newPhoneTextInput.addClass("invalid");
+                phoneErrorMessage2.show();
+                isContained = true;
+            }
+        });
+
+        return isContained;
+    }
+
+    function setRowsNumbers() {
         $(".contacts-rows tr").each(function (i) {
             var number = i + 1;
             $(this).find("td:first-child").text(number);
         });
-    };
+    }
 });
