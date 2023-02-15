@@ -2,55 +2,7 @@
     box-sizing: border-box;
 }
 
-.content {
-    margin: auto;
-    font-family: Arial, sans-serif;
-    padding: 20px;
-    background: #FEEED6;
+.container {
     max-width: 1200px;
     min-width: 400px;
-}
-
-.content .title {
-    margin: 10px;
-    text-align: center;
-}
-
-.content .form > * {
-    display: inline-block;
-    vertical-align: top;
-}
-
-.content .error-message {
-    color: #f00;
-    display: none;
-}
-
-.content .edit-error-message {
-    color: #f00;
-}
-
-.content .invalid {
-    border-color: #f00;
-}
-
-.content .invalid ~ .error-message {
-    display: block;
-}
-
-.content .todo-item-text {
-    padding-right: 5px;
-    word-wrap: break-word;
-}
-
-.content .todo-item + .todo-item {
-    margin-top: 5px;
-}
-
-.row > * {
-    padding: 5px;
-}
-
-.content #new-todo-text {
-    width: 100%;
 }

@@ -1,41 +1,36 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bootstrap</title>
 
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
-    <link rel="stylesheet" href="style.css">
     <script defer src="node_modules/jquery/dist/jquery.js"></script>
     <script defer src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
     <script defer src="script.js"></script>
 </head>
 <body>
-<div class="content">
+<div id="form" class="container text-center bg-warning text-black p-1">
     <h1 class="title">JQ TODO List (Bootstrap)</h1>
 
-    <div class="container">
-        <div class="row">
-            <div class="col-md-3">
-                <span>Enter text:</span>
-            </div>
-
-            <div class="col-md-7">
-                <label for="new-todo-text"></label><input id="new-todo-text" type="text">
-                <div class="error-message">Field is required</div>
-            </div>
-
-            <div class="col-md-2">
-                <button id="add-button" type="submit">Add</button>
-            </div>
+    <div class="row mb-3 justify-content-center">
+        <div class="col-12 text-center col-lg-2 text-lg-end mb-3">
+            <label class="col-form-label" for="new-todo-text">Enter text:</label>
         </div>
 
-        <div class="row">
-            <div class="col">
-                <ul id="todo-list"></ul>
-            </div>
+        <div class="col-10 col-lg-8 mb-3">
+            <input id="new-todo-text" type="text" class="form-control">
+            <div class="invalid-feedback">Field is required</div>
         </div>
+
+        <div class="col-12 text-center col-lg-2 text-lg-start mb-3">
+            <button class="btn btn-primary" id="add-button" type="submit">Add</button>
+        </div>
+    </div>
+
+    <div class="todo-list-block">
+        <ul id="todo-list" class="col-12 text-center"></ul>
     </div>
 </div>
 </body>
