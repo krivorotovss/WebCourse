@@ -24,7 +24,7 @@
     text-align: center;
 }
 
-.content .get-decisions {
+.content .get-solutions-button {
     display: block;
     background: #378DB2;
     border: none;
@@ -37,6 +37,6 @@
     margin-left: auto;
 }
 
-.content .get-decisions:hover {
+.content .get-solutions-button:hover {
     background: #37A599;
 }

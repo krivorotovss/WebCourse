@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a75bef7e-5a76-4b31-ace6-a44a2d8692b4" name="Changes" comment="Fixed Todo List">
+    <list default="true" id="a75bef7e-5a76-4b31-ace6-a44a2d8692b4" name="Changes" comment="Fixed Bootstrap">
       <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/TodoListVue/index.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/TodoListVue/package-lock.json" afterDir="false" />
@@ -12,10 +12,10 @@
       <change afterPath="$PROJECT_DIR$/TodoListVue/script.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/TodoListVue/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bootstrap/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Bootstrap/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bootstrap/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/Bootstrap/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bootstrap/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Bootstrap/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Todo-List/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/Todo-List/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Underscore/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Underscore/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Underscore/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/Underscore/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Underscore/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Underscore/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +76,7 @@
       <workItem from="1670516254890" duration="79638000" />
       <workItem from="1673281646454" duration="747000" />
       <workItem from="1673282423453" duration="96133000" />
-      <workItem from="1675686291904" duration="50685000" />
+      <workItem from="1675686291904" duration="53499000" />
     </task>
     <task id="LOCAL-00001" summary="Create WebCourse project">
       <created>1670499682287</created>
@@ -400,7 +400,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676210253587</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="Fixed Bootstrap">
+      <created>1676466428429</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1676466428429</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -431,6 +438,7 @@
     <MESSAGE value="Create Bootstrap" />
     <MESSAGE value="Fixed JQ Todo List" />
     <MESSAGE value="Fixed Todo List" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed Todo List" />
+    <MESSAGE value="Fixed Bootstrap" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed Bootstrap" />
   </component>
 </project>
