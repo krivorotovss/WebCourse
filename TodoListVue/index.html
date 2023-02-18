@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Todo List Vue</title>
+
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <script defer src="node_modules/vue/dist/vue.js"></script>
+    <script defer src="script.js"></script>
+</head>
+<body>
+<div id="app">
+    <form @submit.prevent id="form" class="container text-center bg-warning text-black p-1">
+        <h1 class="title">Vue TODO List</h1>
+
+        <div class="row mb-3 justify-content-center">
+            <div class="col-12 text-center col-lg-2 text-lg-end mb-3">
+                <label for="new-todo-text" class="col-form-label">Enter text:</label>
+            </div>
+
+            <div class="new-todo-text col-10 col-lg-8 mb-3">
+                <input :class="{'is-invalid': isNewItemInvalid }" v-model="newItemText" id="new-todo-text" type="text"
+                       class="form-control">
+                <div class="invalid-feedback">Field is required</div>
+            </div>
+
+            <div class="col-12 text-center col-lg-2 text-lg-start mb-3">
+                <button @click="addItem" class="btn btn-primary" id="add-button" type="submit">Add</button>
+            </div>
+        </div>
+    </form>
+
+    <div class="todo-list-form container text-center bg-warning text-black p-1">
+        <ul id="todo-list" class="col-12 text-center">
+            <li v-for="(item, index) in items" :key="item.id" class="list-group-item">
+                <template v-if="!item.isEditing">
+                    <div class="row mb-2 mt-2">
+                        <div class="col-1 col-lg-1"></div>
+
+                        <div class="col-6 col-lg-8 text-start">
+                            <span v-text="item.text" class="todo-item-text"></span>
+                        </div>
+
+                        <div class="col-5 col-lg-3 text-start">
+                            <button @click="editItem(item)" class="edit-button btn btn-secondary btn-outline-light me-2"
+                                    type="button">Edit
+                            </button>
+                            <button @click="deleteItem(index)" class="delete-button btn btn-danger" type="button">
+                                Delete
+                            </button>
+                        </div>
+                    </div>
+                </template>
+
+                <template v-else>
+                    <div class="row mb-2 mt-2">
+                        <div class="col-1 col-lg-1"></div>
+
+                        <div class="col-6 col-lg-8">
+                            <input :class="{ 'is-invalid': isItemInvalid }" v-model="item.editText"
+                                   class="edit-todo-item form-control"
+                                   type="text">
+                            <div class="invalid-feedback">Field is required</div>
+                        </div>
+
+                        <div class="col-4 col-lg-3 text-start">
+                            <button @click="saveItem(item)" class="save-button btn btn-success me-2"
+                                    type="button">
+                                Save
+                            </button>
+                            <button @click="cancelEditing(item)"
+                                    class="cancel-button btn btn-secondary btn-outline-light" type="button">Cancel
+                            </button>
+                        </div>
+                    </div>
+                </template>
+            </li>
+        </ul>
+    </div>
+</div>
+</body>
+</html>
