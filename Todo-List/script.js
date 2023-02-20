@@ -21,12 +21,12 @@ document.addEventListener("DOMContentLoaded", function () {
         todoItem.classList.add("todo-item");
 
         function setEditMode() {
-            todoItem.innerHTML = "<input class='edit-todo-item' type='text'>\
-                <div class='save-cancel-buttons'>\
+            todoItem.innerHTML = "<div class='new-row-block'>\
+                <input class='edit-todo-item' type='text'>\
                 <button class='save-button' type='button'>Save</button>\
                 <button class='cancel-button' type='button'>Cancel</button>\
-                <div style='display: none' class='edit-error-message'>Field is required</div>\
-                </div";
+                <div class='break'></div>\
+                <div class='edit-error-message'>Field is required</div>";
 
             var editTodoItem = todoItem.querySelector(".edit-todo-item");
 
@@ -52,11 +52,12 @@ document.addEventListener("DOMContentLoaded", function () {
         }
 
         function setViewMode() {
-            todoItem.innerHTML = "<span class='todo-item-text'></span>\
+            todoItem.innerHTML = "<div class='new-row-block'>\
+                <span class='todo-item-text'></span>\
                 <div class='edit-delete-buttons'>\
                 <button class='edit-button' type='button'>Edit</button>\
                 <button class='delete-button' type='button'>Delete</button>\
-                </div>";
+                </div></div>";
 
             todoItem.querySelector(".todo-item-text").textContent = newTodoText;
 
