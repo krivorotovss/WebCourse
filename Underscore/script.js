@@ -1,6 +1,6 @@
 $(function () {
     var peopleList = $(".people-list");
-    var getDecisionsButton = $(".get-solutions-button");
+    var getSolutionsButton = $(".get-solutions-button");
     var solution1 = $(".solution1");
     var solution2 = $(".solution2");
     var solution3 = $(".solution3");
@@ -24,34 +24,33 @@ $(function () {
         peopleList.append("<br>");
     })
 
-    var peopleAverageAge = people
-        .reduce(function (sum, person) {
-            return sum + person.age;
-        }, 0) / _.size(people);
+    var peopleAverageAge = people.reduce(function (sum, person) {
+        return sum + person.age;
+    }, 0) / _.size(people);
 
-    var from20To30AscendingSortedPeople = _.chain(people)
+    var ascendingSortedPeopleAgeFrom20To30 = _.chain(people)
         .filter(function (person) {
             return person.age >= 20 && person.age <= 30;
         })
         .sortBy("age")
         .value();
 
-    var from20To30DescendingSortedPeopleNames = _.chain(people)
+    var descendingSortedPeopleNamesFrom20To30 = _.chain(people) //TODO
         .filter(function (person) {
             return person.age >= 20 && person.age <= 30;
         })
         .sortBy("age")
-        .reverse()
         .map("name")
+        .reverse()
         .uniq()
         .value();
 
     var namesCountObject = _.countBy(people, "name");
 
-    getDecisionsButton.click(function () {
+    getSolutionsButton.click(function () {
         solution1.append(peopleAverageAge);
-        solution2.append(JSON.stringify(from20To30AscendingSortedPeople));
-        solution3.append(from20To30DescendingSortedPeopleNames.join(", "));
+        solution2.append(JSON.stringify(ascendingSortedPeopleAgeFrom20To30));
+        solution3.append(descendingSortedPeopleNamesFrom20To30.join(", "));
         solution4.append(JSON.stringify(namesCountObject));
     });
 });
